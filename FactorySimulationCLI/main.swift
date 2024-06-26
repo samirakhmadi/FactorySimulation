@@ -51,7 +51,7 @@ let issueDate = dateFormatter.date(from: "2020-01-01")!
 let passport = Passport(series: "1234", number: "567890", issueDate: issueDate)
 let person = Person(fullName: "Иванов Иван Иванович", age: 30, passport: passport)
 
-// Здесь можно добавить дополнительный код для демонстрации работы классов в CLI проекте
+
 
 // Принудительный сбор мусора
 autoreleasepool {
